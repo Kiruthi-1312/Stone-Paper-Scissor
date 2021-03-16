@@ -1,0 +1,51 @@
+body {
+    font-family: 'Macondo Swash Caps', cursive;
+    color: #5e5d5d;
+    text-align: center;
+  }
+.dark
+{
+    background-color: black;
+    color: cornsilk;
+    text-align: center;
+}
+  header{
+      text-align: center;
+      font-size: 25px;
+  }
+  
+  .score{
+    display: flex;
+    flex: 50%;
+    justify-content: space-evenly;
+    padding: 10px;
+    text-decoration-style: solid;
+    font-size: 30px;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 30px auto;
+    border: 4px solid #5e5e5e;
+    border-radius: 5px;
+  }
+  button
+  {
+    border: none;
+  }
+  .images-1{
+    border: 0;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 25px; 
+  }
+  img:hover{
+    transition: all 1s;
+    transform: scale(1.1);
+  }
+  .selection{
+    display: block;
+    justify-content: space-evenly;
+    padding: 15px;
+  }
