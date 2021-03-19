@@ -13,6 +13,7 @@
 <body>
     <header>
         <button type="button" class="btn btn-toggle btn-primary float-end">Dark-mode</button>
+        <button type="button" class="replay btn  btn-primary float-start">Replay</button>
 
         <h1>
             <span style="color: rgb(27, 211, 165);">STONE</span>&nbsp;
@@ -34,29 +35,42 @@
         <div class="computer">
             <p class="computer-score"><b>COMPUTER : 0</b></p>
         </div>
+        
     </div>
+        <p id = "comment"><br></p>
     </div>
 
 <main>
-    <div class="images-1">
-        <button class="stone-btn">
-            <img src="stone.png" alt="Stone">
+        <div class="container images-1">
+            <div class="row">
+              <div class="col">
+        <button class="stone-btn weapon">
+            <img src="stone.png" class="img-rounded" alt="Stone">
         </button>&nbsp;
-        <button class="paper-btn">
+              </div>
+              <div class="col">
+        <button class="paper-btn weapon">
             <img src="paper.png" alt="Paper">
         </button>
-        <button class="scissor-btn">
+              </div>
+              <div class="col">
+        <button class="scissor-btn weapon">
             <img src="scissor.png" alt="Scissor">
         </button>
+    </div>
+    </div>
     </div>
 </main>
 
     <div class="selection">
         <div class="selection-0">
-            YOU SELECTED : 
-<br><br>
-            COMPUTER SELECTED :  
-            <!-- <p>Scissor</p> -->
+            <!-- YOU SELECTED : -->
+            <p></p>
+            <br>
+        </div>
+        <div class="selection-1">
+           <!-- COMPUTER SELECTED :   -->
+           <p></p> 
         </div>
     </div>
 
